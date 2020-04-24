@@ -6,7 +6,8 @@ namespace Basics.AuthorizationRequirements
 {
     public class CustomRequireClaim : IAuthorizationRequirement
     {
-        public CustomRequireClaim(string claimType)
+        // Ahmad Notes
+        public CustomRequireClaim(string claimType) 
         {
             ClaimType = claimType;
         }
